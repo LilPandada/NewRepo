@@ -5,7 +5,6 @@
 #include<astra/Vector2f.hpp>
 #include <stdio.h>
 #include <key_handler.h>
-#include<vector>
 
 
 
@@ -70,6 +69,7 @@ void print_hand_frame(astra_handframe_t handFrame)
     }
 
     VideoController::getVideoController()->play();
+    cout << ".." << endl;
 
    /* for (int i = 0; i < outlist.size(); i++) {
         printf("ºá×ø±ê%f,×Ý×ø±ê%f,   ", outlist[i].x, outlist[i].y);
